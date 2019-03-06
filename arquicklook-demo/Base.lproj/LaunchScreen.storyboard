@@ -37,7 +37,7 @@
                                     <constraint firstAttribute="width" constant="213" id="y13-GS-GHd"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019 - Helly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMa-bB-wyo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019 - Helly S." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMa-bB-wyo">
                                 <rect key="frame" x="20" y="619" width="335" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="CG5-HE-yud"/>

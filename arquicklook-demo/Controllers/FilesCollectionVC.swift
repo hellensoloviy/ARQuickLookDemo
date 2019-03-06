@@ -61,6 +61,13 @@ class FilesCollectionVC: UICollectionViewController {
         selectedIndexPath = indexPath
         return true
     }
+    
+    //MARK: - IBActions
+    @IBAction func showSafari(_ sender: UIBarButtonItem) {
+        let safariURLToArtGallery = "https://developer.apple.com/arkit/gallery/"
+        UIApplication.shared.open(URL(string: safariURLToArtGallery)!, options: [:])
+    }
+    
 }
 
 // MARK: - Collection View Flow Layout Delegate
