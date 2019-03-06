@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+import QuickLook
+
+class FileCollectionViewItem: UICollectionViewCell {
+    static let identifier = "FileReusableCell"
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
+}
+
+

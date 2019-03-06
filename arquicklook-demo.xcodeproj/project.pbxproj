@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		9BFD3F14222ECBBE0026D9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD3F13222ECBBE0026D9EE /* AppDelegate.swift */; };
-		9BFD3F16222ECBBE0026D9EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD3F15222ECBBE0026D9EE /* ViewController.swift */; };
 		9BFD3F19222ECBBE0026D9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F17222ECBBE0026D9EE /* Main.storyboard */; };
 		9BFD3F1B222ECBBF0026D9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F1A222ECBBF0026D9EE /* Assets.xcassets */; };
 		9BFD3F1E222ECBBF0026D9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F1C222ECBBF0026D9EE /* LaunchScreen.storyboard */; };
+		9BFD3F26222ECC230026D9EE /* FilesCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD3F25222ECC230026D9EE /* FilesCollectionVC.swift */; };
+		9BFD3F28222ECD210026D9EE /* FileCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD3F27222ECD210026D9EE /* FileCollectionViewItem.swift */; };
+		9BFD3F31222ED72D0026D9EE /* tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F2E222ED72D0026D9EE /* tulip.usdz */; };
+		9BFD3F32222ED72D0026D9EE /* cupandsaucer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F2F222ED72D0026D9EE /* cupandsaucer.usdz */; };
+		9BFD3F33222ED72D0026D9EE /* retrotv.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F30222ED72D0026D9EE /* retrotv.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BFD3F10222ECBBE0026D9EE /* arquicklook-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arquicklook-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFD3F13222ECBBE0026D9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BFD3F15222ECBBE0026D9EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BFD3F18222ECBBE0026D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BFD3F1A222ECBBF0026D9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BFD3F1D222ECBBF0026D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BFD3F1F222ECBBF0026D9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFD3F25222ECC230026D9EE /* FilesCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesCollectionVC.swift; sourceTree = "<group>"; };
+		9BFD3F27222ECD210026D9EE /* FileCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCollectionViewItem.swift; sourceTree = "<group>"; };
+		9BFD3F2E222ED72D0026D9EE /* tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tulip.usdz; sourceTree = "<group>"; };
+		9BFD3F2F222ED72D0026D9EE /* cupandsaucer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = cupandsaucer.usdz; sourceTree = "<group>"; };
+		9BFD3F30222ED72D0026D9EE /* retrotv.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = retrotv.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				9BFD3F13222ECBBE0026D9EE /* AppDelegate.swift */,
-				9BFD3F15222ECBBE0026D9EE /* ViewController.swift */,
+				9BFD3F25222ECC230026D9EE /* FilesCollectionVC.swift */,
+				9BFD3F27222ECD210026D9EE /* FileCollectionViewItem.swift */,
 				9BFD3F17222ECBBE0026D9EE /* Main.storyboard */,
+				9BFD3F34222ED7510026D9EE /* 3Dmodels */,
 				9BFD3F1A222ECBBF0026D9EE /* Assets.xcassets */,
 				9BFD3F1C222ECBBF0026D9EE /* LaunchScreen.storyboard */,
 				9BFD3F1F222ECBBF0026D9EE /* Info.plist */,
 			);
 			path = "arquicklook-demo";
+			sourceTree = "<group>";
+		};
+		9BFD3F34222ED7510026D9EE /* 3Dmodels */ = {
+			isa = PBXGroup;
+			children = (
+				9BFD3F2F222ED72D0026D9EE /* cupandsaucer.usdz */,
+				9BFD3F30222ED72D0026D9EE /* retrotv.usdz */,
+				9BFD3F2E222ED72D0026D9EE /* tulip.usdz */,
+			);
+			path = 3Dmodels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFD3F31222ED72D0026D9EE /* tulip.usdz in Resources */,
 				9BFD3F1E222ECBBF0026D9EE /* LaunchScreen.storyboard in Resources */,
+				9BFD3F33222ED72D0026D9EE /* retrotv.usdz in Resources */,
+				9BFD3F32222ED72D0026D9EE /* cupandsaucer.usdz in Resources */,
 				9BFD3F1B222ECBBF0026D9EE /* Assets.xcassets in Resources */,
 				9BFD3F19222ECBBE0026D9EE /* Main.storyboard in Resources */,
 			);
@@ -135,8 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BFD3F16222ECBBE0026D9EE /* ViewController.swift in Sources */,
+				9BFD3F28222ECD210026D9EE /* FileCollectionViewItem.swift in Sources */,
 				9BFD3F14222ECBBE0026D9EE /* AppDelegate.swift in Sources */,
+				9BFD3F26222ECC230026D9EE /* FilesCollectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
