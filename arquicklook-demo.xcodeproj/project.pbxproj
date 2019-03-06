@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BF46E24222FE236001EB420 /* ARQLThumbnailGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF46E23222FE231001EB420 /* ARQLThumbnailGenerator.swift */; };
+		9BF46E28222FE6BA001EB420 /* stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9BF46E27222FE6BA001EB420 /* stratocaster.usdz */; };
 		9BFD3F14222ECBBE0026D9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD3F13222ECBBE0026D9EE /* AppDelegate.swift */; };
 		9BFD3F19222ECBBE0026D9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F17222ECBBE0026D9EE /* Main.storyboard */; };
 		9BFD3F1B222ECBBF0026D9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F1A222ECBBF0026D9EE /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9BF46E23222FE231001EB420 /* ARQLThumbnailGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARQLThumbnailGenerator.swift; sourceTree = "<group>"; };
+		9BF46E27222FE6BA001EB420 /* stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = stratocaster.usdz; sourceTree = "<group>"; };
 		9BFD3F10222ECBBE0026D9EE /* arquicklook-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arquicklook-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFD3F13222ECBBE0026D9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BFD3F18222ECBBE0026D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +47,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9BF46E25222FE29C001EB420 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9BF46E23222FE231001EB420 /* ARQLThumbnailGenerator.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9BF46E26222FE2F1001EB420 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BFD3F25222ECC230026D9EE /* FilesCollectionVC.swift */,
+				9BFD3F27222ECD210026D9EE /* FileCollectionViewItem.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		9BFD3F07222ECBBE0026D9EE = {
 			isa = PBXGroup;
 			children = (
@@ -63,11 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				9BFD3F13222ECBBE0026D9EE /* AppDelegate.swift */,
-				9BFD3F25222ECC230026D9EE /* FilesCollectionVC.swift */,
-				9BFD3F27222ECD210026D9EE /* FileCollectionViewItem.swift */,
-				9BFD3F17222ECBBE0026D9EE /* Main.storyboard */,
+				9BF46E26222FE2F1001EB420 /* Controllers */,
+				9BF46E25222FE29C001EB420 /* Helper */,
 				9BFD3F34222ED7510026D9EE /* 3Dmodels */,
 				9BFD3F1A222ECBBF0026D9EE /* Assets.xcassets */,
+				9BFD3F17222ECBBE0026D9EE /* Main.storyboard */,
 				9BFD3F1C222ECBBF0026D9EE /* LaunchScreen.storyboard */,
 				9BFD3F1F222ECBBF0026D9EE /* Info.plist */,
 			);
@@ -77,6 +98,7 @@
 		9BFD3F34222ED7510026D9EE /* 3Dmodels */ = {
 			isa = PBXGroup;
 			children = (
+				9BF46E27222FE6BA001EB420 /* stratocaster.usdz */,
 				9BFD3F2F222ED72D0026D9EE /* cupandsaucer.usdz */,
 				9BFD3F30222ED72D0026D9EE /* retrotv.usdz */,
 				9BFD3F2E222ED72D0026D9EE /* tulip.usdz */,
@@ -148,6 +170,7 @@
 				9BFD3F32222ED72D0026D9EE /* cupandsaucer.usdz in Resources */,
 				9BFD3F1B222ECBBF0026D9EE /* Assets.xcassets in Resources */,
 				9BFD3F19222ECBBE0026D9EE /* Main.storyboard in Resources */,
+				9BF46E28222FE6BA001EB420 /* stratocaster.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +183,7 @@
 			files = (
 				9BFD3F28222ECD210026D9EE /* FileCollectionViewItem.swift in Sources */,
 				9BFD3F14222ECBBE0026D9EE /* AppDelegate.swift in Sources */,
+				9BF46E24222FE236001EB420 /* ARQLThumbnailGenerator.swift in Sources */,
 				9BFD3F26222ECC230026D9EE /* FilesCollectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
