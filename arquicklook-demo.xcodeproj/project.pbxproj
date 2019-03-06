@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BFD3F14222ECBBE0026D9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD3F13222ECBBE0026D9EE /* AppDelegate.swift */; };
+		9BFD3F19222ECBBE0026D9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F17222ECBBE0026D9EE /* Main.storyboard */; };
+		9BFD3F1B222ECBBF0026D9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F1A222ECBBF0026D9EE /* Assets.xcassets */; };
+		9BFD3F1E222ECBBF0026D9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F1C222ECBBF0026D9EE /* LaunchScreen.storyboard */; };
+		9BFD3F26222ECC230026D9EE /* FilesCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD3F25222ECC230026D9EE /* FilesCollectionVC.swift */; };
+		9BFD3F28222ECD210026D9EE /* FileCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD3F27222ECD210026D9EE /* FileCollectionViewItem.swift */; };
+		9BFD3F31222ED72D0026D9EE /* tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F2E222ED72D0026D9EE /* tulip.usdz */; };
+		9BFD3F32222ED72D0026D9EE /* cupandsaucer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F2F222ED72D0026D9EE /* cupandsaucer.usdz */; };
+		9BFD3F33222ED72D0026D9EE /* retrotv.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD3F30222ED72D0026D9EE /* retrotv.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BFD3F10222ECBBE0026D9EE /* arquicklook-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arquicklook-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFD3F13222ECBBE0026D9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BFD3F18222ECBBE0026D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BFD3F1A222ECBBF0026D9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BFD3F1D222ECBBF0026D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BFD3F1F222ECBBF0026D9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFD3F25222ECC230026D9EE /* FilesCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesCollectionVC.swift; sourceTree = "<group>"; };
+		9BFD3F27222ECD210026D9EE /* FileCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCollectionViewItem.swift; sourceTree = "<group>"; };
+		9BFD3F2E222ED72D0026D9EE /* tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tulip.usdz; sourceTree = "<group>"; };
+		9BFD3F2F222ED72D0026D9EE /* cupandsaucer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = cupandsaucer.usdz; sourceTree = "<group>"; };
+		9BFD3F30222ED72D0026D9EE /* retrotv.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = retrotv.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BFD3F0D222ECBBE0026D9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BFD3F07222ECBBE0026D9EE = {
+			isa = PBXGroup;
+			children = (
+				9BFD3F12222ECBBE0026D9EE /* arquicklook-demo */,
+				9BFD3F11222ECBBE0026D9EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BFD3F11222ECBBE0026D9EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BFD3F10222ECBBE0026D9EE /* arquicklook-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BFD3F12222ECBBE0026D9EE /* arquicklook-demo */ = {
+			isa = PBXGroup;
+			children = (
+				9BFD3F13222ECBBE0026D9EE /* AppDelegate.swift */,
+				9BFD3F25222ECC230026D9EE /* FilesCollectionVC.swift */,
+				9BFD3F27222ECD210026D9EE /* FileCollectionViewItem.swift */,
+				9BFD3F17222ECBBE0026D9EE /* Main.storyboard */,
+				9BFD3F34222ED7510026D9EE /* 3Dmodels */,
+				9BFD3F1A222ECBBF0026D9EE /* Assets.xcassets */,
+				9BFD3F1C222ECBBF0026D9EE /* LaunchScreen.storyboard */,
+				9BFD3F1F222ECBBF0026D9EE /* Info.plist */,
+			);
+			path = "arquicklook-demo";
+			sourceTree = "<group>";
+		};
+		9BFD3F34222ED7510026D9EE /* 3Dmodels */ = {
+			isa = PBXGroup;
+			children = (
+				9BFD3F2F222ED72D0026D9EE /* cupandsaucer.usdz */,
+				9BFD3F30222ED72D0026D9EE /* retrotv.usdz */,
+				9BFD3F2E222ED72D0026D9EE /* tulip.usdz */,
+			);
+			path = 3Dmodels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BFD3F0F222ECBBE0026D9EE /* arquicklook-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFD3F22222ECBBF0026D9EE /* Build configuration list for PBXNativeTarget "arquicklook-demo" */;
+			buildPhases = (
+				9BFD3F0C222ECBBE0026D9EE /* Sources */,
+				9BFD3F0D222ECBBE0026D9EE /* Frameworks */,
+				9BFD3F0E222ECBBE0026D9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "arquicklook-demo";
+			productName = "arquicklook-demo";
+			productReference = 9BFD3F10222ECBBE0026D9EE /* arquicklook-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BFD3F08222ECBBE0026D9EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = HellySolovii;
+				TargetAttributes = {
+					9BFD3F0F222ECBBE0026D9EE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 9BFD3F0B222ECBBE0026D9EE /* Build configuration list for PBXProject "arquicklook-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BFD3F07222ECBBE0026D9EE;
+			productRefGroup = 9BFD3F11222ECBBE0026D9EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BFD3F0F222ECBBE0026D9EE /* arquicklook-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BFD3F0E222ECBBE0026D9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFD3F31222ED72D0026D9EE /* tulip.usdz in Resources */,
+				9BFD3F1E222ECBBF0026D9EE /* LaunchScreen.storyboard in Resources */,
+				9BFD3F33222ED72D0026D9EE /* retrotv.usdz in Resources */,
+				9BFD3F32222ED72D0026D9EE /* cupandsaucer.usdz in Resources */,
+				9BFD3F1B222ECBBF0026D9EE /* Assets.xcassets in Resources */,
+				9BFD3F19222ECBBE0026D9EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BFD3F0C222ECBBE0026D9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFD3F28222ECD210026D9EE /* FileCollectionViewItem.swift in Sources */,
+				9BFD3F14222ECBBE0026D9EE /* AppDelegate.swift in Sources */,
+				9BFD3F26222ECC230026D9EE /* FilesCollectionVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BFD3F17222ECBBE0026D9EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BFD3F18222ECBBE0026D9EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BFD3F1C222ECBBF0026D9EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BFD3F1D222ECBBF0026D9EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BFD3F20222ECBBF0026D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BFD3F21222ECBBF0026D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BFD3F23222ECBBF0026D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7LBYY3B34;
+				INFOPLIST_FILE = "arquicklook-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hs.arquicklook-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BFD3F24222ECBBF0026D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7LBYY3B34;
+				INFOPLIST_FILE = "arquicklook-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hs.arquicklook-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BFD3F0B222ECBBE0026D9EE /* Build configuration list for PBXProject "arquicklook-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFD3F20222ECBBF0026D9EE /* Debug */,
+				9BFD3F21222ECBBF0026D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BFD3F22222ECBBF0026D9EE /* Build configuration list for PBXNativeTarget "arquicklook-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFD3F23222ECBBF0026D9EE /* Debug */,
+				9BFD3F24222ECBBF0026D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BFD3F08222ECBBE0026D9EE /* Project object */;
+}
